@@ -11,9 +11,10 @@ conda activate depth-pro-win-gpu
 ```
 Install PyTorch with CUDA for GPU based computing. The example below is for CUDA 11.8:  
 CUDA Installation: https://developer.nvidia.com/cuda-11-8-0-download-archive  
-PyTorch Installation: https://developer.nvidia.com/cuda-11-8-0-download-archive  
+PyTorch Installation: https://pytorch.org/, example 
 
 ```bash
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 git clone https://github.com/lattebyte/DepthPro-Windows-GPU.git
 cd DepthPro-Windows-GPU
 pip install -e .
