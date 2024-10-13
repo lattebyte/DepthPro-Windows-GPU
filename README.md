@@ -18,6 +18,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 git clone https://github.com/lattebyte/DepthPro-Windows-GPU.git
 cd DepthPro-Windows-GPU
 pip install -e .
+pip install opencv-python
 ```
 
 To download pretrained checkpoints follow the steps below:
