@@ -1,6 +1,8 @@
 ![](data/inferred_2.png)
 
 ## Getting Started
+Youtube video demo: https://www.youtube.com/watch?v=2dwBKIkzfvU  
+
 Note: The current depth estimation model requires significant GPU resources, and the camera FPS may be reduced. 
 We recommend setting up a virtual environment. Using e.g. Anaconda run as administration, the `depth_pro` package can be installed via:
 
@@ -18,7 +20,6 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 git clone https://github.com/lattebyte/DepthPro-Windows-GPU.git
 cd DepthPro-Windows-GPU
 pip install -e .
-pip install opencv-python
 ```
 
 To download pretrained checkpoints follow the steps below:
